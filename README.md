@@ -1,24 +1,41 @@
 # e-by-vue
 
-> my vue demo
+### Vue-cli
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
+$ npm install -g vue-cli
+```
+##### usage
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+```
+$ vue init <template-name> <project-name>
+```
+##### ex.
+
+```
+➜  workspace vue init webpack e-by-vue
+
+? Target directory exists. Continue? Yes
+  This will install Vue 2.x version of template.
+
+  For Vue 1.x use: vue init webpack#1.0 e-by-vue
+
+? Project name e-by-vue
+? Project description my vue demo
+? Author B.H <bohai92182@gmail.com>
+? Vue build standalone
+? Use ESLint to lint your code? Yes
+? Pick an ESLint preset Standard
+? Setup unit tests with Karma + Mocha? No
+? Setup e2e tests with Nightwatch? Yes
+
+   vue-cli · Generated "e-by-vue".
+
+   To get started:
+
+     cd e-by-vue
+     npm install
+     npm run dev
+
+   Documentation can be found at https://vuejs-templates.github.io/webpack
+```
